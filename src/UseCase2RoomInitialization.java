@@ -23,6 +23,10 @@ abstract class Room {
 
     // Abstract method
     public abstract void displayDetails();
+
+    public String getRoomType() {
+        return "";
+    }
 }
 
 // Single Room Class
