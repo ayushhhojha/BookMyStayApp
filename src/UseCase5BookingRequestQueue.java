@@ -35,7 +35,7 @@ class Reservation {
 
 // Booking Queue Class
 class BookingRequestQueue {
-    private Queue<Reservation> queue;
+    private final Queue<Reservation> queue;
 
     public BookingRequestQueue() {
         queue = new LinkedList<>();
@@ -59,6 +59,10 @@ class BookingRequestQueue {
         for (Reservation r : queue) {
             r.displayReservation();
         }
+    }
+
+    public boolean isEmpty() {
+        return false;
     }
 }
 
