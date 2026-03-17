@@ -6,6 +6,5 @@ public class Main {
         System.out.println("Welcome to the Hotel Booking Management System");
         System.out.println("System initialized successfully");
         System.out.println("--------------------------------");
-
     }
 }
